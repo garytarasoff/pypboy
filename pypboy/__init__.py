@@ -5,6 +5,7 @@ import pypboy.ui
 from enum import Enum
 
 if settings.GPIO_AVAILABLE:
+if config.GPIO_AVAILABLE:
     import RPi.GPIO as GPIO
 
 class GameState(Enum):
